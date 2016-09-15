@@ -4,29 +4,59 @@
     <meta charset="UTF-8">
     <title>Stylus Clone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
     <div class="container-fluid">
        <!--well 1 -->
-       <div class="title-card">
-
+       <div class="title-card flex-container">
+           <div class="row item">
+               <div class="col-xs-4 col-md-4 col-xs-offset-4">
+                   <div>
+                       <h2>Stylus</h2>
+                       <p class="tagline">Obtain a pen that writes.  Just like every other pen.</p>
+                       <button class="btn btn-primary">Obtain it!</button>
+                   </div>
+               </div>
+           </div>
        </div>
 
        <!--well 2-->
        <div class="function-card">
            <div class="row">
-               <div class="col-xs-4 col-xs-offset-2 col-md-2 col-md-offset-2"></div>
-               <div class="col-xs-4 col-md-2"></div>
-               <div class="col-xs-4 col-xs-offset-2 col-md-2"></div>
-               <div class="col-xs-4 col-md-2"></div>
+               <div class="col-xs-4 col-xs-offset-2 col-md-2 col-md-offset-2">
+                   <span class="glyphicon glyphicon-pencil"></span>
+                   <h4>Natural writing</h4>
+                   <p class="caption">Don't change your habits, write with a pen on <strong>paper notebooks</strong></p>
+               </div>
+               <div class="col-xs-4 col-md-2">
+                   <span class="glyphicon glyphicon-floppy-disk"></span>
+                   <h4>Industry standard</h4>
+                   <p class="caption">Tech-savvy employees will be thrilled with our state-of-the-art <strong>Windows 95 system</strong></p>
+               </div>
+               <div class="col-xs-4 col-xs-offset-2 col-md-2 col-md-offset-0 row-2">
+                   <span class="glyphicon glyphicon-repeat"></span>
+                   <h4>Repetition</h4>
+                   <p class="caption">It doesn't matter how frequent your glaring and frequent mistakes, <strong>you can fix them</strong></p>
+               </div>
+               <div class="col-xs-4 col-md-2 row-2">
+                   <span class="glyphicon glyphicon-fire"></span>
+                   <h4>Thorough cleanup</h4>
+                   <p class="caption">If all is lost, destroy evidence in our <strong>industrial-strength incinerators</strong></p>
+               </div>
            </div>
        </div>
 
        <!--well 3-->
-       <div class="subscribe-card">
-           <div class="row">
-               <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-2 col-md-5">
-
+       <div class="subscribe-card flex-container">
+           <div class="row item">
+               <div class="col-xs-6 col-xs-offset-3 col-md-4 col-md-offset-4 text-center">
+                   <h3>Get news about pens</h3>
+                   <p>Especially ones that don't write</p>
+                   <form class="form-inline" action="post">
+                       <input type="email" class="form-control" placeholder="summerboy@hawaii.com">
+                       <button class="btn btn-primary">Subscribe</button>
+                   </form>
                </div>
            </div>
        </div>

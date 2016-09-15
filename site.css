@@ -1,0 +1,45 @@
+.container-fluid {
+    padding: 0
+}
+.title-card {
+    height: 70vw;
+    max-height: 500px;
+    background: url(./images/notebook.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #337ab7
+}
+h2 {
+    font-weight: bold;
+}
+.function-card {
+    background-color: #469AE0;
+    color: white;
+    padding: 75px 0;
+    text-align: center;
+}
+.glyphicon {
+    font-size: 35px;
+}
+@media (max-width: 991px) {
+    .row-2 {
+        padding-top: 50px;
+    }
+}
+.tagline {
+    color: #337ab7;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subscribe-card {
+    height: 250px;
+}
+.flex-container.subscribe-card {
+    align-content: center;
+}
+.item {
+    /*height: 200px;*/
+}
