@@ -37,12 +37,24 @@ h2 {
 .subscribe-card {
     height: 250px;
 }
-.flex-container.subscribe-card {
+.vert-center {
     align-content: center;
 }
 .footer {
-    background-color: #222;
+    background-color: black;
+}
+.row {
+    margin: 0;
 }
 .footer .row {
-    padding 15px 0;
+    padding: 15px 0;
+}
+.icon {
+    width: 30px;
+    margin: 20px 10px;
+}
+.signature {
+    color: white;
+    margin: 0;
+    padding: 20px 0;
 }
